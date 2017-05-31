@@ -21,6 +21,7 @@ body {
 .row {
 	max-width: 1140px;
 	margin: 0 auto;
+	max-height: 230px;
 }
 
 section {
@@ -36,7 +37,7 @@ header h1 {
 .main-nav {
 	position: relative;
 	list-style: none;
-	padding-top: 65px;
+	padding-top: 18px;
 	text-align: center;
 }
 
@@ -57,66 +58,83 @@ header h1 {
 	margin-left: 0;
 }
 
-.ul-link:link,
-.ul-link:visited {
+.header-link:link,
+.header-link:visited {
 	text-decoration: none;
 	color: #000;
-	border-bottom: 2px solid transparent;
+	padding: 5px;
+	border-bottom: 1px solid transparent;
 	-webkit-transition: border-bottom 0.2s;
 	transition: border-bottom 0.2s;
 }
 
-.ul-link:hover,
-.ul-link:active {
-	border-bottom: 2px solid #000;
+.header-link:hover,
+.header-link:active {
+	border-bottom: 1px solid #000;
+}
+
+.footer-link:link,
+.footer-link:visited {
+	text-decoration: none;
+	color: #fff;
+	padding: 5px;
+	border-bottom: 1px solid transparent;
+	-webkit-transition: border-bottom 0.2s;
+	transition: border-bottom 0.2s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+	border-bottom: 1px solid #fff;
 }
 
 .social-media-link:link,
 .social-media-link:visited {
-	color: #000;
+	color: #fff;
 }
 
 .section-title {
 	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/Banner-Image.jpg);
 	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/Banner-Image.jpg);
 	background-size: cover;
-	background-position: 0 -500px;
-	background-attachment: fixed;
-	height: 45vh;
+	background-position: center;
+	height: 70vh;
 	margin: 25px 0;
 	color: #fff;
 }
 
-.section-title h2 {
-	margin-bottom: 25px;
+.section-title p {
+	padding-top: 250px;
 }
 
-.section-title p {
-	padding-top: 110px;
+.about-paragraph {
+	margin-bottom: 27px;
+	text-transform: none;
+	font-weight: 500;
+	padding: 0 35px;
+	background-color: #fff;
+	color: #000;
 }
 
 .section-about {
+	background-color: #dedede;
 	padding: 20px 0;
 }
 
-.section-about p {
-	text-transform: none;
-	font-weight: 500;
-	padding: 0 15px;
+.section-about .col {
+	vertical-align: middle;
+	padding: 20px;
+	margin: 35px 5px 25px;
 }
 
-.section-about hr {
-	border: 1px solid #6d6d6d;
-	width: 100%;
-	margin: 25px 5px;
+.section-about .col h3 {
+	margin: 0 0 25px;
 }
 
-.section-about h3 {
-	margin: 45px 0 25px;
-}
 
 footer {
-	background-color: #939393;
+	background-color: #343434;
+	color: #fff;
 	padding: 40px 0 5px;
 	text-transform: none;
 }
