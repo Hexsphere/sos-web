@@ -1,3 +1,7 @@
+*:focus {
+	outline: none;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -18,20 +22,29 @@ body {
 	text-transform: uppercase;
 }
 
+#map {
+	height: 280px;
+	width: 100%;
+	margin: 80px 0;
+}
+
 .row {
 	max-width: 1140px;
 	margin: 0 auto;
-	max-height: 230px;
 }
 
 section {
 	padding: 40px 0;
 }
 
+header {
+	margin: 25px 0;
+}
+
 header h1 {
 	font-weight: 400;
-	font-size: 190%;
-	margin: 35px 0;
+	font-size: 220%;
+	margin: 15px 0;
 }
 
 .main-nav {
@@ -49,13 +62,11 @@ header h1 {
 }
 
 .main-nav hr {
-	border: 1px solid #6d6d6d;
+	background-color: #ccc;
+	border: 0pt solid;
+	height: 1px;
 	vertical-align: middle;
-	width: 15%;
-}
-
-.main-nav hr:nth-child(1) {
-	margin-left: 0;
+	width: 18%;
 }
 
 .header-link:link,
@@ -94,6 +105,7 @@ header h1 {
 }
 
 .section-title {
+	text-transform: none;
 	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/Banner-Image.jpg);
 	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/Banner-Image.jpg);
 	background-size: cover;
@@ -104,7 +116,7 @@ header h1 {
 }
 
 .section-title p {
-	padding-top: 250px;
+	padding: 250px 15px 0;
 }
 
 .about-paragraph {
@@ -131,12 +143,57 @@ header h1 {
 	margin: 0 0 25px;
 }
 
+.section-about .col p {
+	text-transform: none;
+}
+
+.section-form {
+	text-transform: none;
+	background-color: #dedede;
+}
+
+.section-form .container,
+.section-form form {
+	padding: 25px;
+}
+
+input[type=name],
+input[type=email],
+select,
+textarea {
+	width: 100%;
+	padding: 7px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+}
+
+.section-form .container:nth-child(1) {
+	margin-bottom: 60px;
+}
+
+.section-form form input[type=submit] {
+	border: 0;
+	border-bottom: 1px solid transparent;
+	-webkit-transition: border-bottom 0.2s;
+	transition: border-bottom 0.2s;
+}
+
+.section-form form input[type=submit]:hover {
+	border-bottom: 1px solid #000;
+}
 
 footer {
 	background-color: #343434;
 	color: #fff;
 	padding: 40px 0 5px;
 	text-transform: none;
+}
+
+.sticky {
+	height: auto;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
 }
 
 footer h4 {
@@ -146,6 +203,10 @@ footer h4 {
 footer ul {
 	list-style: none;
 	margin-bottom: 10px;
+}
+
+footer li {
+	margin: 15px 0;
 }
 
 footer p {
