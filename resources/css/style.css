@@ -172,8 +172,8 @@ textarea {
 }
 
 .section-form form input[type=submit] {
-	background-color: none; !important
 	border: 0;
+	background-color: none;
 	border-bottom: 1px solid transparent;
 	-webkit-transition: border-bottom 0.2s;
 	transition: border-bottom 0.2s;
