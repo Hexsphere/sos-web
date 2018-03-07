@@ -3,154 +3,153 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="apple-touch-icon" sizes="57x57" href="resources/favions/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="resources/favions/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="resources/favions/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="resources/favions/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="resources/favions/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="resources/favions/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="resources/favions/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="resources/favions/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="resources/favions/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192" href="resources/favions/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="resources/favions/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="resources/favions/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="resources/favions/favicon-16x16.png">
-	<link rel="manifest" href="resources/favions/manifest.json">
-	<meta name="msapplication-TileColor" content="#fff">
-	<meta name="msapplication-TileImage" content="resources/favions/ms-icon-144x144.png">
-	<meta name="theme-color" content="#fff">
+    <link async rel="apple-touch-icon" sizes="57x57" href="resources/favicons/apple-icon-57x57.png">
+    <link async rel="apple-touch-icon" sizes="60x60" href="resources/favicons/apple-icon-60x60.png">
+    <link async rel="apple-touch-icon" sizes="72x72" href="resources/favicons/apple-icon-72x72.png">
+    <link async rel="apple-touch-icon" sizes="76x76" href="resources/favicons/apple-icon-76x76.png">
+    <link async rel="apple-touch-icon" sizes="114x114" href="resources/favicons/apple-icon-114x114.png">
+    <link async rel="apple-touch-icon" sizes="120x120" href="resources/favicons/apple-icon-120x120.png">
+    <link async rel="apple-touch-icon" sizes="144x144" href="resources/favicons/apple-icon-144x144.png">
+    <link async rel="apple-touch-icon" sizes="152x152" href="resources/favicons/apple-icon-152x152.png">
+    <link async rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-icon-180x180.png">
+    <link async rel="icon" type="image/png" sizes="192x192" href="resources/favicons/android-icon-192x192.png">
+    <link async rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
+    <link async rel="icon" type="image/png" sizes="96x96" href="resources/favicons/favicon-96x96.png">
+    <link async rel="icon" type="image/png" sizes="16x16" href="resources/favicons/favicon-16x16.png">
+    <link async rel="manifest" href="resources/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#fff">
+    <meta name="msapplication-TileImage" content="resources/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#fff">
 
-	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
-	<link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
-	<link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
-	<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
-	<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700" rel="stylesheet">
-	<title>Solid Object Software - Contact</title>
+    <link async href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700" rel="stylesheet">
+    <link async href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link async rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link async rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <title>Solid Object Software - Contact</title>
 </head>
 
 <body>
-	<header>
-		<h1>SOLID OBJECT SOFTWARE</h1>
-		<nav>
-			<div class="row">
-				<ul class="main-nav">
-					<hr>
-					<li><a class="header-link" href="index.html">Home</a></li>
-					<li><a class="header-link" href="about.html">About</a></li>
-					<li><a class="header-link" href="#">Contact</a></li>
-					<hr>
-				</ul>
-			</div>
-		</nav>
-	</header>
+    <header>
+        <h1>SOLID OBJECT SOFTWARE</h1>
+        <nav>
+            <div class="row">
+                <ul class="main-nav">
+                    <hr>
+                    <li><a class="header-link" href="index.html">Home</a></li>
+                    <li><a class="header-link" href="about.html">About</a></li>
+                    <li><a class="header-link" href="#">Contact</a></li>
+                    <hr>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-	<section class="section-title" style="margin-bottom:80px;">
-		<h2>Contact Us</h2>
-		<p>You can contact us by email or phone.</p>
-	</section>
+    <section class="section-title" style="margin-bottom:80px;">
+        <h2>Contact Us</h2>
+        <p>You can contact us by email or phone.</p>
+    </section>
 
-	<div id="map"></div>
-	<script>
-		function initMap() {
-			var uluru = {
-				lat: 33.457484,
-				lng: -111.727607
-			};
-			var map = new google.maps.Map(document.getElementById('map'), {
-				zoom: 10,
-				center: uluru
-			});
-			var marker = new google.maps.Marker({
-				position: uluru,
-				map: map
-			});
-		}
-	</script>
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfsmzrhtb0PK2Yg4J-bTj05OtLZ0Kj2gM&callback=initMap">
-	</script>
+    <div id="map"></div>
+    <script>
+        function initMap() {
+            var uluru = {
+                lat: 33.457484,
+                lng: -111.727607
+            };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 10,
+                center: uluru
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfsmzrhtb0PK2Yg4J-bTj05OtLZ0Kj2gM&callback=initMap">
+    </script>
 
-	<section class="section-form">
-		<div class="row">
-			<div class="col span-1-of-2">
-				<div class="container">
-					<h3>Email</h3>
-					<p>banderson@solidobjectsoftware.com</p>
-				</div>
-				<div class="container">
-					<h3>Telephone</h3>
-					<p>(602) 361-9682</p>
-				</div>
-			</div>
-			<div class="col span-1-of-2">
-				<form method="POST" action="http://formspree.io/ethanhanderson1@gmail.com">
-					<div class="row">
-						<div class="col span-1-of-3">
-							<lable>First</lable>
-						</div>
-						<div class="col span-2-of-3">
-							<input type="name" name="name">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col span-1-of-3">
-							<lable>Last</lable>
-						</div>
-						<div class="col span-2-of-3">
-							<input type="name" name="name">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col span-1-of-3">
-							<lable>Email</lable>
-						</div>
-						<div class="col span-2-of-3">
-							<input type="email" name="email">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col span-1-of-3">
-							<lable>Comment</lable>
-						</div>
-						<div class="col span-2-of-3">
-							<textarea name="comment"></textarea>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col span-1-of-3">
-							<lable>&nbsp;</lable>
-						</div>
-						<div class="col span-2-of-3">
-							<input type="submit" value="Send it!">
-						</div>
-					</div>
-				</form>
-			</div>
-		</div>
-	</section>
+    <section class="section-form">
+        <div class="row">
+            <div class="col span-1-of-2">
+                <div class="container">
+                    <h3>Email</h3>
+                    <p>banderson@solidobjectsoftware.com</p>
+                </div>
+                <div class="container">
+                    <h3>Telephone</h3>
+                    <p>(602) 361-9682</p>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <form method="POST" action="http://formspree.io/ethanhanderson1@gmail.com">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <lable>First</lable>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="name" name="name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <lable>Last</lable>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="name" name="name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <lable>Email</lable>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <lable>Comment</lable>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="comment"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <lable>&nbsp;</lable>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Send it!">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
 
-	<footer>
-		<div class="row">
-			<div class="col span-1-of-2">
-				<h4>Services</h4>
-				<ul>
-					<li>Software Development</li>
-				</ul>
-			</div>
-			<div class="col span-1-of-2">
-				<h4>Directory</h4>
-				<ul>
-					<li><a class="footer-link" href="about.html" target="_top">About Us</a></li>
-					<li><a class="footer-link" href="contact.html" target="_top">Contact</a></li>
-				</ul>
-			</div>
-		</div>
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <h4>Services</h4>
+                <ul>
+                    <li>Software Development</li>
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <h4>Directory</h4>
+                <ul>
+                    <li><a class="footer-link" href="about.html" target="_top">About Us</a></li>
+                    <li><a class="footer-link" href="contact.html" target="_top">Contact</a></li>
+                </ul>
+            </div>
+        </div>
 
-		<p>© COPYRIGHT Solid Object Software, LLC. 2017. ALL RIGHTS RESERVED.</p>
-		<a class="social-media-link" href="mailto:banderson@solidobjectsoftware.com"><i class="ion-email"></i></a>
-	</footer>
+        <p>© COPYRIGHT Solid Object Software, LLC. 2017. ALL RIGHTS RESERVED.</p>
+        <a class="social-media-link" href="mailto:banderson@solidobjectsoftware.com"><i class="fas fa-envelope-open"></i></a>
+    </footer>
 </body>
 </html>
