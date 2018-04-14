@@ -11,7 +11,7 @@
 
 html,
 body {
-    background-color: #fff;
+    background-color: #f9f9f9;
     color: #393939;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
@@ -88,7 +88,7 @@ header .header-logo {
 .footer-link:link,
 .footer-link:visited {
     text-decoration: none;
-    color: #fff;
+    color: #f9f9f9;
     padding: 5px;
     border-bottom: 1px solid transparent;
     -webkit-transition: border-bottom 0.2s;
@@ -97,12 +97,12 @@ header .header-logo {
 
 .footer-link:hover,
 .footer-link:active {
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #f9f9f9;
 }
 
 .social-media-link:link,
 .social-media-link:visited {
-    color: #fff;
+    color: #f9f9f9;
 }
 
 .section-title {
@@ -112,7 +112,7 @@ header .header-logo {
     background-repeat: no-repeat;
     height: 55vh;
     padding: 15px 0;
-    color: #fff;
+    color: #f9f9f9;
 }
 
 .section-title h1 {
@@ -142,9 +142,10 @@ header .header-logo {
     font-weight: 500;
 }
 
-.about-tiles {
-    background-color: #DEDEDE;
-    color: #E96E13;
+.section-about hr {
+    border: 1.3px solid #393939;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .about-tiles .row {
@@ -156,12 +157,14 @@ header .header-logo {
 }
 
 .about-tile h3 {
+    color: #BE6628;
     margin-bottom: 15px;
 }
 
 .about-tile p {
     text-transform: none;
     margin-bottom: 25px;
+    color: #393939;
 }
 
 .about-tile img {
@@ -205,7 +208,7 @@ textarea {
 }
 
 footer {
-    background-color: #343434;
+    background-color: #393939;
     color: #fff;
     padding: 40px 0 5px;
     text-transform: none;
