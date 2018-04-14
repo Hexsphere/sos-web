@@ -130,6 +130,7 @@ header .header-logo {
 
 .section-title p {
     width: 65%;
+    margin: 0 auto;
 }
 
 .section-title hr {
