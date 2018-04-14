@@ -24,7 +24,7 @@ body {
 #map {
     height: 280px;
     width: 100%;
-    margin: 80px 0;
+    margin: 65px 0;
 }
 
 .row {
@@ -34,6 +34,13 @@ body {
 
 section {
     padding: 40px 0;
+}
+
+section h1,
+section h2,
+section h3 {
+    color: #BE6628;
+    margin-bottom: 10px;
 }
 
 .full {
@@ -102,29 +109,23 @@ header .header-logo {
 
 .social-media-link:link,
 .social-media-link:visited {
+    font-size: 2em;
     color: #f9f9f9;
 }
 
 .section-title {
-    background-image: url(/assets/images/background.png);
+    background-image: url("/assets/images/background.png");
     background-size: cover;
-    background-position: center top;
+    background-position: center bottom;
     background-repeat: no-repeat;
-    height: 55vh;
+    height: 65vh;
     padding: 15px 0;
     color: #f9f9f9;
 }
 
 .section-title h1 {
-    padding: 10px 0;
     font-size: 170%;
     text-transform: uppercase;
-}
-
-.section-title h2 {
-    padding: 10px 0;
-    padding-bottom: 0;
-    font-size: 135%;
 }
 
 .section-title hr {
@@ -172,8 +173,7 @@ header .header-logo {
 }
 
 .section-form {
-    text-transform: none;
-    background-color: #dedede;
+    padding-top: 0;
 }
 
 .section-form .container,
@@ -181,14 +181,14 @@ header .header-logo {
     padding: 25px;
 }
 
-input[type=name],
-input[type=email],
+input,
 select,
 textarea {
     width: 100%;
     padding: 7px;
     border-radius: 3px;
     border: 1px solid #ccc;
+    font: auto 'Raleway', sans-serif;
 }
 
 .section-form .container:nth-child(1) {
@@ -196,9 +196,11 @@ textarea {
 }
 
 .section-form form input[type=submit] {
+    font: 95% 'Raleway', sans-serif;
     border: 0;
-    background-color: none;
+    background-color: transparent;
     border-bottom: 1px solid transparent;
+    padding-bottom: 3.2px;
     -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
 }
@@ -214,6 +216,15 @@ footer {
     text-transform: none;
 }
 
+.footer-row {
+    max-width: 35%;
+    margin-bottom: 35px;
+}
+
+footer .full {
+    height: 10vh;
+}
+
 .sticky {
     height: auto;
     width: 100%;
@@ -223,6 +234,10 @@ footer {
 
 footer h4 {
     margin-bottom: 10px;
+}
+
+.extra {
+    padding-top: 18px;
 }
 
 footer ul {

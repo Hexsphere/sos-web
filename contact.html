@@ -6,51 +6,53 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicons/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicons/manifest.json">
     <meta name="msapplication-TileColor" content="#fff">
-    <meta name="msapplication-TileImage" content="assets/favicons/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="/assets/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#fff">
 
-    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700" rel="stylesheet">
-    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="/assets/styles/grid.css">
+    <link rel="stylesheet" href="/assets/styles/style.css">
     <title>Solid Object Software - Contact</title>
 </head>
 
-<body>
+<body class="animated fadeIn">
     <header>
-        <h1>SOLID OBJECT SOFTWARE</h1>
+        <img class="header-logo" src="/assets/images/logo-1.svg">
         <nav>
             <div class="row">
                 <ul class="main-nav">
-                    <hr>
-                    <li><a class="header-link" href="index.html">Home</a></li>
+                    <li><a class="header-link" href="#">Home</a></li>
                     <li><a class="header-link" href="about.html">About</a></li>
-                    <li><a class="header-link" href="#">Contact</a></li>
-                    <hr>
+                    <li><a class="header-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </nav>
-    </header>
 
-    <section class="section-title" style="margin-bottom:80px;">
-        <h2>Contact Us</h2>
-        <p>You can contact us by email or phone.</p>
-    </section>
+        <div class="full section-title">
+            <div>
+                <h1>Contact Us</h1>
+                <hr>
+                <p>Feel free to send us an email, phone call, or to drop us a line!</p>
+            </div>
+        </div>
+    </header>
 
     <div id="map"></div>
     <script>
@@ -69,7 +71,7 @@
             });
         }
     </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfsmzrhtb0PK2Yg4J-bTj05OtLZ0Kj2gM&callback=initMap">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfsmzrhtb0PK2Yg4J-bTj05OtLZ0Kj2gM&callback=initMap">
     </script>
 
     <section class="section-form">
@@ -132,14 +134,19 @@
     </section>
 
     <footer>
-        <div class="row">
-            <div class="col span-1-of-2">
-                <h4>Services</h4>
+        <div class="row footer-row">
+            <div class="col span-1-of-3">
+                <h4 class="extra">Services</h4>
                 <ul>
                     <li>Software Development</li>
                 </ul>
             </div>
-            <div class="col span-1-of-2">
+            <div class="col span-1-of-3">
+                <div class="full">
+                    <a class="social-media-link" href="mailto:banderson@solidobjectsoftware.com"><i class="fas fa-envelope-open"></i></a>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
                 <h4>Directory</h4>
                 <ul>
                     <li><a class="footer-link" href="about.html" target="_top">About Us</a></li>
@@ -148,8 +155,7 @@
             </div>
         </div>
 
-        <p>© COPYRIGHT Solid Object Software, LLC. 2017. ALL RIGHTS RESERVED.</p>
-        <a class="social-media-link" href="mailto:banderson@solidobjectsoftware.com"><i class="fas fa-envelope-open"></i></a>
+        <p>© COPYRIGHT Solid Object Software, LLC. 2018. ALL RIGHTS RESERVED.</p>
     </footer>
 </body>
 </html>
