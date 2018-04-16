@@ -217,32 +217,16 @@ textarea {
 footer {
     background-color: #393939;
     color: #fff;
-    padding: 40px 0 5px;
+    padding: 15px 0;
     text-transform: none;
 }
 
 .footer-row {
     max-width: 35%;
-    margin-bottom: 35px;
 }
 
 footer .full {
     height: 10vh;
-}
-
-.sticky {
-    height: auto;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-}
-
-footer h4 {
-    margin-bottom: 10px;
-}
-
-.extra {
-    padding-top: 18px;
 }
 
 footer ul {
@@ -252,8 +236,4 @@ footer ul {
 
 footer li {
     margin: 15px 0;
-}
-
-footer p {
-    margin: 5px;
 }
