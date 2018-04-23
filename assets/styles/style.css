@@ -149,9 +149,11 @@ header .header-logo {
 }
 
 .section-about hr {
-    border: 1.3px solid #393939;
+    background-color: #393939;
+    border: 0;
     width: 80%;
     margin: 0 auto;
+    height: 1.6px;
 }
 
 .about-tiles .row {
