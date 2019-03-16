@@ -1,114 +1,193 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Solid Object Software Development Team">
-    <meta name="og:name" content="Solid Object Software Development Team">
-    <meta property="og:title" content="Solid Object Software Official">
-    <meta name="description" content="Solid Object Software - Software Development that embodies the S.O.L.I.D. principles">
-    <meta name="og:description" content="Solid Object Software - Software Development that embodies the S.O.L.I.D. principles">
-    <meta property="og:url" content="https://www.solidobjectsoftware.com/">
-    <meta property="og:url" content="https://www.solidobjectsoftware.com/">
-    <meta property="og:image" content="assets/images/seo.png">
-    <meta property="og:type" content="website">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicons/site.webmanifest">
-    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#be6729">
-    <meta name="msapplication-TileColor" content="#ff0000">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/solid.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css"> -->
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="assets/styles/grid.css">
-    <link rel="stylesheet" href="assets/styles/style.css">
-    <title>Solid Object Software - Home</title>
+    <title>Solid Object Software &mdash; Building powerful, enterprise-level business software since 1997</title>
 </head>
 
-<body class="animated fadeIn">
-    <header>
-        <img class="header-logo" src="assets/images/logo-1.svg">
+<body>
+    <header class="header">
         <nav>
-            <div class="row">
-                <ul class="main-nav">
-                    <li><a class="header-link" href="#">Home</a></li>
-                    <li><a class="header-link" href="about.html">About</a></li>
-                    <li><a class="header-link" href="contact.html">Contact</a></li>
-                </ul>
-            </div>
+            <img class="header--logo" src="img/logo.svg" alt="Logo White">
+
+            <ul class="header--nav">
+                <li><a class="header--nav-link" href="#mission" data-scroll>our mission</a></li>
+                <li><a class="header--nav-link" href="#contact" data-scroll>contact us</a></li>
+                <li><a class="header--nav-link" href="">home</a></li>
+            </ul>
         </nav>
 
-        <div class="full section-title">
-            <div>
-                <h1>Smalltalking Since 1993</h1>
-                <hr>
-                <p>We were doing Smalltalk before most of today's software developers could, well, talk!</p>
+        <div class="header--content">
+            <div class="header--est-box">since 1993</div>
+
+            <h1 class="heading-1 heading-1__light">We speak<br><span class="header--language"></span></h1>
+            <p class="paragraph paragraph-hero paragraph__lightest">
+                We were developing professional applications before most of today's developers could, well, talk!
+            </p>
+
+            <div class="btn-box">
+                <a href="#" class="header--btn">get in touch!</a>
+                <a href="#" class="header--btn">who are we?</a>
+            </div>
+
+            <div class="header--scroll-box" href="#mission" data-scroll>
+                <span>read more</span><i class="fa fa-chevron-down" aria-hidden="true"></i>
             </div>
         </div>
     </header>
 
-    <section class="section-about">
-        <p class="about-paragraph">
-            If you have a software project consisting of or interfacing with Smalltalk or Microsoft .Net MVC, you need to talk to us. We do enterprise class, object-oriented software development. We work with our clients to deliver solutions that fit their needs.
-        </p>
+    <main>
+        <section id="mission" class="mission">
+            <h2 class="heading-2 heading-2__dark">
+                Building powerful,<br>enterprise-level business software.
+            </h2>
+            <p class="paragraph paragraph-mission paragraph__dark">
+                Programming enterprise applications is a complicated task at best, which is why groups like us are so
+                invaluable to enterprise customers. We have the knowledge in the languages that enable your ideas to
+                become reality. We have well-founded development architecture using the latest tooling. We started
+                developing business applications in 1993, and our passion for object-oriented code is as strong as
+                ever. We use the most advanced techniques to craft your applications into their fullest potential. Our
+                developers know the database, server-side, and client-side software and tooling used in professional
+                software today.
+            </p>
 
-        <hr>
+            <div class="mission--gallery">
+                <img src="img/gallery-1.png" alt="Image of a desk with laptop and monitor" class="mission--gallery-img mission--gallery-img__1">
+                <img src="img/gallery-2.png" alt="Image of code on a computer screen" class="mission--gallery-img mission--gallery-img__2">
+                <img src="img/gallery-3.png" alt="Image of an office desk" class="mission--gallery-img mission--gallery-img__3">
+            </div>
+        </section>
 
-        <div class="about-tiles">
-            <div class="row">
-                <div class="col span-1-of-3">
-                    <div class="about-tile">
-                        <h3>Our Technology</h3>
-                        <p>A full serving of Smalltalk with a large side of .Net</p>
-                        <img src="assets/images/Tech.png">
-                    </div>
+        <section class="services">
+            <h2 class="heading-2 heading-2__light">What development services we offer:</h2>
+
+            <div class="services--cards-box">
+                <div class="service">
+                    <hr>
+
+                    <h3 class="heading-3 heading-3__dark">Smalltalk/Oracle Business Software</h3>
+                    <p class="paragraph paragraph-service paragraph__light">
+                        Our experience in this area of software development is where our skills stand out. Any kind of
+                        enterprise-level business software is our strong-suite.
+                    </p>
                 </div>
-                <div class="col span-1-of-3">
-                    <div class="about-tile">
-                        <h3>Our Focus</h3>
-                        <p>Solid is our name, and business software is our game.</p>
-                        <img src="assets/images/Focus.png">
-                    </div>
+
+                <div class="service">
+                    <hr>
+
+                    <h3 class="heading-3 heading-3__dark">Microsoft .Net MVC/SQL Server</h3>
+                    <p class="paragraph paragraph-service paragraph__light">
+                        Again, this is an area where our firm has exceptional experience and skill. Our developers have
+                        experience in using this software technology for professional web apps.
+                    </p>
                 </div>
-                <div class="col span-1-of-3">
-                    <div class="about-tile">
-                        <h3>Our Philosophy</h3>
-                        <p>Our software embodies the S.O.L.I.D. principles.</p>
-                        <img src="assets/images/Philosophy.png">
-                    </div>
+
+                <div class="service">
+                    <hr>
+
+                    <h3 class="heading-3 heading-3__dark">Supplemental staffing</h3>
+                    <p class="paragraph paragraph-service paragraph__light">
+                        We've specialized in telecommunications, airline, health-care, financial services, and pension
+                        administration software industries since 1993. Because of that, we have the experience to
+                        develop your app to it's fullest potential.
+                    </p>
                 </div>
+            </div>
+
+            <a href="#contact" data-scroll class="services--btn">start a project!</a>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="contact--info-box">
+
+                <h2 class="heading-2 heading-2__dark">Have a project in mind?<br>Drop us a line!</h2>
+
+                <div class="contact--item-box">
+                    <h4 class="heading-4 heading-4__dark">Business email address:</h4>
+                    <p class="paragraph paragraph-contact paragraph__darker">banderson@solidobjectsoftware.com</p>
+                </div>
+
+                <div class="contact--item-box">
+                    <h4 class="heading-4 heading-4__dark">Personal cell number:</h4>
+                    <p class="paragraph paragraph-contact paragraph__darker">(602) 361-9682</p>
+                </div>
+            </div>
+
+            <div class="contact--image"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer--content-box footer--content-box__1">
+            <img src="img/logo_footer.svg" alt="Full logo white">
+            <p class="copyright">© Solid Object Software 2019</p>
+        </div>
+
+        <div class="footer--content-box footer--content-box__2">
+            <div class="footer--info-box">
+                <a href="#">
+                    <i class="fa fa-map-marker-alt" aria-hidden="true"></i>
+                    <span>Phoenix, AZ</span>
+                </a>
+            </div>
+
+            <div class="footer--info-box">
+                <a href="tel:6023619682">
+                    <i class="fa fa-phone fa-flip-horizontal" aria-hidden="true"></i>
+                    <span>+1 (602) 361 9682</span>
+                </a>
+            </div>
+
+            <div class="footer--info-box">
+                <a href="mailto:banderson@solidobjectsoftware.com">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <span>banderson@solidobjectsoftware.com</span>
+                </a>
             </div>
         </div>
-    </section>
 
-    <footer>
-        <div class="row footer-row">
-            <div class="col span-1-of-3">
-                <h4>Services</h4>
-                <ul>
-                    <li>Software Development</li>
-                </ul>
-            </div>
-            <div class="col span-1-of-3">
-                <div class="full">
-                    <a class="social-media-link" href="mailto:banderson@solidobjectsoftware.com"><i class="fas fa-envelope-open"></i></a>
-                </div>
-            </div>
-            <div class="col span-1-of-3">
-                <h4>Directory</h4>
-                <ul>
-                    <li><a class="footer-link" href="about.html" target="_top">About Us</a></li>
-                    <li><a class="footer-link" href="contact.html" target="_top">Contact</a></li>
-                </ul>
-            </div>
+        <div class="footer--content-box footer--content-box__3">
+            <h4 class="heading-4 heading-4__light">Who we are</h4>
+            <p class="paragraph paragraph-footer paragraph__white">
+                It all started in 1993, with a passion for creating powerful, object oriented enterprise-level business
+                applications. We specialize in the languages and tooling that enable your ideas to become strong
+                reality.
+            </p>
         </div>
     </footer>
+
+    <script defer src="js/solid.min.js"></script>
+    <script defer src="js/sweet-scroll.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            var scroller = new SweetScroll({});
+        }, false);
+    </script>
+
+    <script src="js/typed.js"></script>
+    <script>
+        var options = {
+            strings: ["Smalltalk", "Microsoft .Net", "SQL Server", "Oracle DB"],
+            typeSpeed: 70,
+            shuffle: true,
+            backDelay: 1200,
+            loop: true,
+            loopCount: Infinity,
+            autoInsertCss: false
+        }
+
+        var typed = new Typed(".header--language", options);
+    </script>
 </body>
 
 </html>

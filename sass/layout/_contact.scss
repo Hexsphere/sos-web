@@ -1,0 +1,44 @@
+.contact {
+    position: relative;
+    padding: 12rem 16rem;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    @media only screen and (max-width: 87.5em) {
+        padding: 8rem;
+    }
+
+    @media only screen and (max-width: $bp-large) {
+        padding: 8rem 4.5rem;
+    }
+
+    @media only screen and (max-width: 48.75em) {
+        grid-template-columns: none;
+        grid-template-rows: repeat(2, .6fr);
+    }
+
+    &--info-box {
+        display: grid;
+        row-gap: 3.5rem;
+        align-content: start;
+        justify-items: start;
+    }
+
+    &--image {
+        width: 100%;
+        height: 65rem;
+
+        background-image: url(../img/contact-image.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    h4 {
+        margin-bottom: 1.6rem;
+    }
+
+    p {
+        margin-left: 1.2rem;
+    }
+}
