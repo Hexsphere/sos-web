@@ -68,14 +68,14 @@
             text-decoration: none;
             text-transform: uppercase;
             line-height: 1;
-            background-color: $color-btn-primary;
+            background-color: $color-btn-primary-light;
             color: #fff;
             transition: all .2s ease;
         }
 
         &:hover,
         &:active {
-            background-color: $color-btn-primary-dark;
+            background-color: $color-btn-primary;
             transform: translateY(-5px);
         }
     }
