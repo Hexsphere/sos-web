@@ -4,7 +4,7 @@
     grid-template-columns: repeat(3, 1fr);
     justify-content: start;
 
-    background-color: #5f3d27;
+    background-color: $primary-color-dark;
     color: #fff;
 
     @media only screen and (max-width: $bp-medium) {
@@ -56,7 +56,7 @@
             }
 
             i.fa {
-                background-color: #744b31;
+                background-color: #915225;
                 padding: 1.2rem;
                 border-radius: 50%;
 

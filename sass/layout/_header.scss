@@ -262,13 +262,13 @@
 
             width: 65%;
             height: 2px;
-            background-color: $color-btn-primary;
+            background-color: $primary-color;
             transition: all .3s ease;
         }
 
         &:hover::after,
         &:active::after {
-            background-color: $color-btn-primary-dark;
+            background-color: $primary-color-dark;
             width: 100%;
         }
     }
