@@ -418,6 +418,10 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 11rem; }
+    @media only screen and (max-width: 100em) {
+      .services--cards-box {
+        margin: 6rem -10rem;
+        column-gap: 6.6rem; } }
     @media only screen and (max-width: 81.25em) {
       .services--cards-box {
         column-gap: 6rem; } }
