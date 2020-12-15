@@ -5,21 +5,22 @@
   "description": "The official landing page for the company Solid Object Software",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html --open firefox developer edition",
-    "build": "parcel build index.html --out-dir ./docs"
+    "start": "parcel index.html --open 'firefox developer edition' --port 8080",
+    "build": "parcel build index.html --out-dir ./public"
   },
   "author": "Ethan Anderson",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^7.1.4",
-    "concat": "^1.0.3",
+    "autoprefixer": "^9.8.6",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
     "cssnano": "^4.1.10",
-    "node-sass": "^4.5.3",
-    "npm-run-all": "^4.1.1",
-    "postcss-cli": "^7.1.1"
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-compress": "^2.0.2",
+    "sass": "^1.27.0"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.13.0",
+    "@fortawesome/fontawesome-free": "^5.15.1",
     "sweet-scroll": "^4.0.0",
     "typed.js": "^2.0.11"
   }
